@@ -1,4 +1,4 @@
-from inputs import test_input, real_input
+from inputs import real_input, test_input  # noqa: F401
 
 
 def solve():
