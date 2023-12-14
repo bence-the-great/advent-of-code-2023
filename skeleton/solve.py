@@ -1,7 +1,7 @@
 from inputs import real_input, test_input  # noqa: F401
 
 
-def solve():
+def solve() -> None:
     pass
 
 
