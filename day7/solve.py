@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections.abc import Generator
+from functools import cached_property
 
 from inputs import real_input, test_input  # noqa: F401
 
@@ -42,7 +43,7 @@ class Hand:
 
         raise Exception(f"Couldn't categorize hand {cards}")
 
-    @property
+    @cached_property
     def strength(self) -> int:
         value: int
 
